@@ -27,3 +27,16 @@ Performance Metrics:
   
 We hope that this project helps us understand Figaro at
 a deeper level and give us new insights.
+
+# Tasks Completed: 
+
+We were focused on studying causal effects for diseases to gauge the use of Principles of Programming Languages in the medical field.
+
+We implemented 2 Bayesian Networks, both in Python and Figaro and compared them on various parameters, the detailed report is present in 
+results folder, the resesarch paper used for cancer risk prediction is given in the tests folder and all the code is given in the code-orig folder.
+
+
+# Work Split:
+
+Pratyush was dedicated in understanding the traditional methods of Bayesian Networks implementations and techniques such as Variable Elimination (expertise in this due to ML Course).
+Jatin was dedicated in studying how these techniques are already implemented in Figaro and what helps make the traditional Python code shorter and faster in Figaro.
