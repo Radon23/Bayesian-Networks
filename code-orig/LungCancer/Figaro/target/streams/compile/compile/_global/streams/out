@@ -1,0 +1,37 @@
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:6:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval highPollen = Flip(0.3)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:7:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval ateAllergicFood = Flip(0.1)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:10:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval hasAllergy = Apply(highPollen, ateAllergicFood,[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:14:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval sneeze = If(hasAllergy, Flip(0.8), Flip(0.3))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:15:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval rash = If(hasAllergy, Flip(0.7), Flip(0.1))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:18:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval algorithm = VariableElimination(hasAllergy)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:20:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0malgorithm.start()[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:23:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0msneeze.observe(true)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:24:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mrash.observe(true)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:26:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval probabilityOfAllergy = algorithm.probability(hasAllergy, true)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:28:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mprintln("Probability of having an allergy given sneezing and rash: " + probabilityOfAllergy)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BitsGoa\Sem 5\Principle Of ProLang\BasyesianNetworks\Figaro\test.scala:30:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0malgorithm.kill()[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m12 errors found[0m
