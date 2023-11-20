@@ -24,5 +24,6 @@ Performance Metrics:
 - Memory for execution
 - Code reliability for programmers
 - Length of program
+  
 We hope that this project helps us understand Figaro at
 a deeper level and give us new insights.
